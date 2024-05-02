@@ -78,8 +78,8 @@
                     <attribute id="Boosts" type="LSString" value="" />
                     <attribute id="Level" type="uint8" value="7" />
                     <attribute id="Name" type="LSString" value="" />
-                    <attribute id="PassivesRemoved" type="LSString" value="KHB_lv1_LoviatarsLove_Passive"/>
-                    <attribute id="PassivesAdded" type="LSString" value="KHB_lv7_LoviatarsLove_Passive" />
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="" />
                     <attribute id="ProgressionType" type="uint8" value="1" />
                     <attribute id="Selectors" type="LSString" value="" />
                     <attribute id="TableUUID" type="guid" value="17157bad-3a35-4a28-be7d-7422baedce4e" />
