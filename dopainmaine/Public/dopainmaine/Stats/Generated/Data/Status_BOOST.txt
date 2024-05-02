@@ -5,7 +5,7 @@ data "DisplayName" "h80729873g86d9g4ddbga01egeebe788f1733;2"
 data "Description" "hef31fe63ga576g45c0ga580gf2b0d8fa0b35;3"
 data "Icon" "statIcons_GOB_CalmnessInPain"
 data "StackId" "GOB_CALMNESS_IN_PAIN"
-data "StatusPropertyFlags" "IgnoreResting"
+data "StatusPropertyFlags" "IgnoreResting,ApplyToDead"
 data "Boosts" "Ability(Constitution, 1), Ability(Wisdom, 1), Ability(Intelligence, -1)"
 
 

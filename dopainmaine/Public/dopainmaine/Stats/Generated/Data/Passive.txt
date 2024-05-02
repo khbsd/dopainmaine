@@ -18,6 +18,6 @@ data "Boosts" "RollBonus(Attack, 3);RollBonus(SavingThrow, 3, Wisdom)"
 
 new entry "KHB_InPainInTheMembrane_Unlock"
 type "PassiveData"
-data "Properties" "IsHidden"
+data "Icon" "statIcons_GOB_CalmnessInPain"
 data "StatsFunctorContext" "OnCreate"
 data "StatsFunctors" "ApplyStatus(KHB_InPainInTheMembrane_Status, 100, -1), ApplyStatus(KHB_GOB_CALMNESS_ACTIVE_DUMMY, 100, -1)"

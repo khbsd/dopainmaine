@@ -14,7 +14,7 @@
                     <attribute id="Name" type="FixedString" value="" />
                     <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf" />
                     <attribute id="PrimaryAbility" type="uint8" value="5" />
-                    <attribute id="ProgressionTableUUID" type="guid" value="a3b6b444-068e-49bf-822f-8e9d8a9d1c47" />
+                    <attribute id="ProgressionTableUUID" type="guid" value="17157bad-3a35-4a28-be7d-7422baedce4e" />
                     <attribute id="ShortName" type="TranslatedString" handle="" version="1" />
                     <attribute id="SoundClassType" type="FixedString" value="Cleric" />
                     <attribute id="SpellCastingAbility" type="uint8" value="5" />
