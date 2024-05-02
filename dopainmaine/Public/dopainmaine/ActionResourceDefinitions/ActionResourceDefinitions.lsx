@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+  	<region id="ActionResourceDefinitions">
+    	<node id="root">
+      		<children>
+        		<node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="" version="1" />
+                    <attribute id="Name" type="FixedString" value="" />
+                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
+                    <attribute id="UUID" type="guid" value="74fe5dbc-a548-423d-822c-1527b74919d9" />
+                </node>
+      		</children>
+    	</node>
+  	</region>
+</save>
