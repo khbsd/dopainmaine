@@ -1,0 +1,37 @@
+function HasLessHPThanPlayerLevel(target, source)
+    local target = target or context.Target
+    local source = source or context.Source
+    local value = (source.Level * 2) + source.ProficiencyBonus
+    if value < 24 then
+        value = 24
+    end
+
+    return ConditionResult(target.HP < value)
+end
+
+function IsCharismaGreaterThanStrength()
+    return ConditionResult(context.Source.Charisma >= context.Source.Strength)
+end
+
+function LevelDividedByThree(source)
+    local source = source or context.Source
+    local level = source.Level
+
+    return math.floor(level/3)
+end
+
+
+function SlayerSpellDC(source)
+    local source = source or context.Source
+    local level = source.level
+
+    return level + 2
+end
+
+
+function HasMediumArmor(entity)
+    entity = entity or context.Target
+    local armor = GetActiveArmor(entity)
+    local hasMediumArmor = armor.ArmorType == ArmorType.BreastPlate or armor.ArmorType == ArmorType.ChainShirt or armor.ArmorType == ArmorType.Hide or armor.ArmorType == ArmorType.HalfPlate or armor.ArmorType == ArmorType.Plate or armor.ArmorType == ArmorType.ScaleMail
+    return ConditionResult(hasMediumArmor)
+end

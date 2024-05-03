@@ -1,4 +1,4 @@
-new entry "KHB_lv1_LoviatarsLove_Passive"
+new entry "KHB_Passive_lv1_LoviatarsLove"
 type "PassiveData"
 data "DisplayName" "h5aad95dcgb754g464egb446gd84b03a608e5;1"
 data "Description" "h59b0c50fgea42g439bg96f4g2356494f5034;1"
@@ -8,10 +8,91 @@ data "BoostConditions" "HasHPPercentageWithoutTemporaryHPEqualOrLessThan(30, con
 data "Boosts" "RollBonus(Attack, 2);RollBonus(SavingThrow, 2, Wisdom)"
 
 
+new entry "KHB_Passive_Thumbscrewer"
+type "PassiveData"
+data "DisplayName" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "Description" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "DescriptionParams" "DamageBonus(1d4 + ProficiencyBonus, Piercing);"
+data "Icon" "GenericIcon_DamageType_Piercing"
+data "Properties" "IsToggled;Highlighted;ToggledDefaultOn;ToggledDefaultAddToHotbar"
+data "Boosts" "IF(Unarmed() and not WearingArmor()):CharacterUnarmedDamage(WisdomModifier, Piercing);RollBonus(Attack, ProficiencyBonus)"
+
+
+new entry "KHB_Passive_Thumbscrews"
+type "PassiveData"
+data "DisplayName" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "Description" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "DescriptionParams" "2;ApplyStatus(KHB_Status_Thumbscrewed, 100, 2)"
+data "Icon" "PassiveFeature_BrutalCritical"
+data "Properties" "Highlighted"
+data "Conditions" "HasDamageEffectFlag(DamageFlags.Critical) and not (IsCriticalMiss() or IsMiss())"
+data "StatsFunctorContext" "OnAttack"
+data "StatsFunctors" "ApplyStatus(KHB_Status_Thumbscrewed, 100, 2)"
+
+
+new entry "KHB_Passive_ShowSomeSkin"
+type "PassiveData"
+data "DisplayName" "h2a129a30gdf7dg4f5eg9bd4g4273698ac4e7;2"
+data "Description" "h5ca20585g219dg493ag89a8gd76cc2c00360;5"
+data "Icon" "PassiveFeature_UnarmoredDefense"
+data "Properties" "Highlighted"
+data "BoostContext" "OnEquip;OnCreate"
+data "BoostConditions" "not WearingArmor(context.Source) and not HasShieldEquipped(context.Source)"
+data "Boosts" "ACOverrideFormula(10, true, Dexterity, Wisdom);IncreaseMaxHP(Level)"
+
+
+new entry "KHB_Passive_Exhibitionist"
+type "PassiveData"
+data "DisplayName" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "Description" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "Icon" "TadpoleSuperPower_PsionicBacklash"
+data "Properties" "Highlighted"
+data "Boosts" "ActionResource(ReactionActionPoint, 1, 0)"
+
+
+new entry "KHB_Passive_Extortionist"
+type "PassiveData"
+data "DisplayName" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "Description" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "Icon" "PassiveFeature_ImprovedCritical"
+data "Properties" "Highlighted"
+data "Boosts" "IF(HasStatus('KHB_Status_Thumbscrewed',context.Target)):DamageBonus(1d4 + WisdomModifier, Psychic);ReduceCriticalAttackThreshold(1)"
+
+
 new entry "KHB_InPainInTheMembrane_Unlock"
 type "PassiveData"
 data "Icon" "statIcons_GOB_CalmnessInPain_Active"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnCreate"
-data "StatsFunctors" "ApplyStatus(KHB_InPainInTheMembrane_Status, 100, -1), ApplyStatus(KHB_GOB_CALMNESS_ACTIVE_DUMMY, 100, -1)"
+data "StatsFunctors" "ApplyStatus(KHB_Status_InPainInTheMembrane, 100, -1), ApplyStatus(KHB_GOB_CALMNESS_ACTIVE_DUMMY, 100, -1)"
 data "Boosts" "Ability(Constitution, 1), Ability(Wisdom, 1), Ability(Intelligence, -1)"
+
+
+new entry "KHB_lv3_FlayingStrikes_Unlock"
+type "PassiveData"
+data "DisplayName" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "Description" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "Icon" "Action_UnarmedAttack"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(KHB_Target_lv3_FlayingStrikes)"
+
+
+new entry "KHB_lv7_FlayingStrikes_Unlock"
+type "PassiveData"
+data "DisplayName" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "Description" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "Icon" "Action_UnarmedAttack"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(KHB_Target_lv7_FlayingStrikes)"
+
+
+new entry "KHB_Autosadism_Unlock"
+type "PassiveData"
+// data "DisplayName" "KHB_Autosadism_DisplayName;2"
+// data "Description" "KHB_Autosadism_Description;6"
+data "DisplayName" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "Description" "h5aad95dcgb754g464egb446gd84b03a608e5"
+data "DescriptionParams" "Distance(9)"
+data "Icon" "TadpoleSuperPower_PsionicBacklash"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(KHB_Interrupt_Autosadism)"
