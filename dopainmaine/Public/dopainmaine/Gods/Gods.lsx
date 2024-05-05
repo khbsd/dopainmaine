@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="307"/>
+    <region id="Gods">
+        <node id="root">
+            <children>
+				<node id="God">
+                    <attribute id="DisplayName" type="TranslatedString" handle="KHB_LoviatarDisplayName" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="KHB_LoviatarDescription" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Loviatar"/>
+                    <attribute id="UUID" type="guid" value="139148a8-d407-410a-a9b8-0ad72ea64ae8"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="8970613d-9d75-4e05-a60f-3819301c84bf"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

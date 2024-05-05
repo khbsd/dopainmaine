@@ -9,9 +9,11 @@ function HasLessHPThanPlayerLevel(target, source)
     return ConditionResult(target.HP < value)
 end
 
+
 function IsCharismaGreaterThanStrength()
     return ConditionResult(context.Source.Charisma >= context.Source.Strength)
 end
+
 
 function LevelDividedByThree(source)
     local source = source or context.Source

@@ -7,8 +7,8 @@
         		<node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="" />
-                    <attribute id="Description" type="TranslatedString" handle="" version="1" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="KHB_dopainmaineDisplayName" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="KHB_dopainmaineDescription" version="1" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
                     <attribute id="MustPrepareSpells" type="bool" value="true" />
                     <attribute id="Name" type="FixedString" value="" />

@@ -1,2 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?><contentList>
+        <!--Subclass Descriptions-->
+        <content contentuid="KHB_dopainmaineDisplayName" version="1">Pained Domain</content>
+        <content contentuid="KHB_dopainmaineDescription" version="1">Can't spell dopamine without Pained Domain.</content>
+
+
+        <!--Passives-->
+        <content contentuid="KHB_AutosadismDisplayName" version="1">Autosadism</content>
+        <content contentuid="KHB_AutosadismDescription" version="1">When you are attacked, and the attack will hit, you can choose to take an additional amount of damage equal to your Charisma modifier, and heal allied entities within [1] for the same amount.</content>
+
+        <content contentuid="KHB_ExhibitionistDisplayName" version="1">Exhibitionist</content>
+        <content contentuid="KHB_ExhibitionistDescription" version="1">You gain an extra Reaction Point.</content>
+
+        <content contentuid="KHB_ExtortionistDisplayName" version="1">Extortionist</content>
+        <content contentuid="KHB_ExtortionistDescription" version="1">When you attack an enemy afflicted with Thumbscrewed, you deal an extra [1] to them.</content>
+
+        <content contentuid="KHB_InPainMembraneDisplayName" version="1">In Pain in the Membrane</content>
+        <content contentuid="KHB_InPainMembraneDescription" version="1">You gain [1] and [2], but lose [3].</content>
+
+        <content contentuid="KHB_ShowSomeSkinDisplayName" version="1">Show Some Skin</content>
+        <content contentuid="KHB_ShowSomeSkinDescription" version="1">You gain an extra health point for each character level. Your armor class is equal to 10 plus your Wisdom and Dexterity modifiers when you are not wearing armor.</content>
+
+        <content contentuid="KHB_ThumbscrewerDisplayName" version="1">Thumbscrewer</content>
+        <content contentuid="KHB_ThumbscrewerDescription" version="1">If you are unarmed and not wearing armor, you deal [1] extra damage to your unarmed attacks and add your Proficiency Bonus to their attack rolls.</content>
+
+        <content contentuid="KHB_ThumbscrewsDisplayName" version="1">Thumbscrews</content>
+        <content contentuid="KHB_ThumbscrewsDescription" version="1">When you make a critical strike against an enemy, you afflict them with [1].</content>
+
+
+        <!--Target Spells-->
+        <content contentuid="KHB_FlayingStrikesDisplayName" version="1">Flaying Strikes</content>
+        <content contentuid="KHB_lv3_FlayingStrikesDescription" version="1">Can't spell</content>
+        <content contentuid="KHB_lv7_FlayingStrikesDescription" version="1">Pained Domain</content>
+
+
+        <!--Statuses-->
+        <content contentuid="KHB_ThumbscrewedDisplayName" version="1">Thumbscrewed</content>
+        <content contentuid="KHB_ThumbscrewedDescription" version="1">Target has been pierced and is actively suffering pain from Thumbscrews. Their AC is lowered by [1].</content>
+
+
+        <!--Loviatar-->
+        <content contentuid="KHB_LoviatarDisplayName" version="1">Loviatar</content>
+	<content contentuid="KHB_LoviatarDescription" version="1"></content>
+
 </contentList>

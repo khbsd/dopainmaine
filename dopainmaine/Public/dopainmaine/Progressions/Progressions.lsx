@@ -48,7 +48,7 @@
                     <attribute id="Boosts" type="LSString" value="IncreaseMaxHP(3)" />
                     <attribute id="Level" type="uint8" value="1" />
                     <attribute id="Name" type="LSString" value="" />
-                    <attribute id="PassivesAdded" type="LSString" value="KHB_lv1_LoviatarsLove_Passive;KHB_InPainInTheMembrane_Unlock;KHB_lv3_FlayingStrikes_Unlock" />
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_lv1_LoviatarsLove_Passive;KHB_InPainInTheMembrane_Unlock;KHB_lv3_FlayingStrikes_Unlock;KHB_Passive_ShowSomeSkin" />
                     <attribute id="ProgressionType" type="uint8" value="1" />
                     <attribute id="Selectors" type="LSString" value="" />
                     <attribute id="TableUUID" type="guid" value="17157bad-3a35-4a28-be7d-7422baedce4e" />
@@ -58,7 +58,7 @@
                     <attribute id="Boosts" type="LSString" value="" />
                     <attribute id="Level" type="uint8" value="3" />
                     <attribute id="Name" type="LSString" value="" />
-                    <attribute id="PassivesAdded" type="LSString" value="KHB_Passive_Thumbscrewer;KHB_Passive_Thumbscrews;KHB_Passive_ShowSomeSkin" />
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_Passive_Thumbscrewer;KHB_Passive_Thumbscrews" />
                     <attribute id="ProgressionType" type="uint8" value="1" />
                     <attribute id="Selectors" type="LSString" value="" />
                     <attribute id="TableUUID" type="guid" value="17157bad-3a35-4a28-be7d-7422baedce4e" />
@@ -89,8 +89,8 @@
                     <attribute id="Boosts" type="LSString" value="" />
                     <attribute id="Level" type="uint8" value="9" />
                     <attribute id="Name" type="LSString" value="" />
-                    <attribute id="PassivesRemoved" type="LSString" value="ExtraAttack" />
-                    <attribute id="PassivesAdded" type="LSString" value="KHB_Passive_Extortionist;ExtraAttack_2" />
+                    <attribute id="PassivesRemoved" type="LSString" value="KHB_Passive_Thumbscrews" />
+                    <attribute id="PassivesAdded" type="LSString" value="KHB_Passive_Extortionist;KHB_lv9_Passive_Thumbscrews" />
                     <attribute id="ProgressionType" type="uint8" value="1" />
                     <attribute id="Selectors" type="LSString" value="" />
                     <attribute id="TableUUID" type="guid" value="17157bad-3a35-4a28-be7d-7422baedce4e" />
