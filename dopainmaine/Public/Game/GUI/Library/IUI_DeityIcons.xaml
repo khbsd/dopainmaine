@@ -15,7 +15,7 @@
 			<DataTrigger Binding="{Binding Guid}" Value="139148a8-d407-410a-a9b8-0ad72ea64ae8">
 				<Setter Property="OpacityMask">
 					<Setter.Value>
-						<ImageBrush ImageSource="pack://application:,,,/GustavNoesisGUI;component/Assets/CC/icons_deities/Lovitar.png"/>
+						<ImageBrush ImageSource="pack://application:,,,/GustavNoesisGUI;component/Assets/CC/icons_deities/Loviatar.png"/>
 					</Setter.Value>
 				</Setter>
 			</DataTrigger>
