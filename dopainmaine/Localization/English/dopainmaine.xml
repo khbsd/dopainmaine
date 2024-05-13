@@ -7,31 +7,32 @@
 
     <!--Passives-->
     <content contentuid="KHB_AutosadismDisplayName" version="1">Autosadism</content>
-    <content contentuid="KHB_AutosadismDescription" version="1">When you are attacked, and the attack will hit, you can choose to take an additional amount of damage equal to your Charisma modifier, and heal allied entities within [1] for the same amount.</content>
+    <content contentuid="KHB_AutosadismDescription" version="1">When you are hit by an attack, you can choose to take an additional amount of damage equal to your Charisma modifier, and heal allied entities within [1] for the same amount.</content>
+    <content contentuid="KHB_AutosadismExtraDescription" version="1">&lt;i&gt;It's the cruel beast that you feed&lt;br&gt;It's your burning yearning need to bleed&lt;br&gt;Through the spillways of your soul&lt;br&gt;&lt;/i&gt; - &lt;b&gt;&lt;i&gt;Spillways&lt;/i&gt;, Ghost&lt;/b&gt;</content>
 
     <content contentuid="KHB_ExhibitionistDisplayName" version="1">Exhibitionist</content>
-    <content contentuid="KHB_ExhibitionistDescription" version="1">You gain an extra Reaction Point.</content>
+    <content contentuid="KHB_ExhibitionistDescription" version="1">The limelight burns so good. You gain an extra &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction point&lt;/LSTag&gt;.</content>
 
     <content contentuid="KHB_ExtortionistDisplayName" version="1">Extortionist</content>
-    <content contentuid="KHB_ExtortionistDescription" version="1">When you attack an enemy afflicted with Thumbscrewed, you deal an extra [1] to them.</content>
+    <content contentuid="KHB_ExtortionistDescription" version="1">When you attack an enemy afflicted with Thumbscrewed, you deal an extra [1].</content>
 
     <content contentuid="KHB_InPainMembraneDisplayName" version="1">In Pain in the Membrane</content>
-    <content contentuid="KHB_InPainMembraneDescription" version="1">You gain [1] and [2], but lose [3].</content>
+    <content contentuid="KHB_InPainMembraneDescription" version="1">You gain a +1 to Constitution and Wisdom, but -1 to Intelligence.</content>
 
     <content contentuid="KHB_ShowSomeSkinDisplayName" version="1">Show Some Skin</content>
-    <content contentuid="KHB_ShowSomeSkinDescription" version="1">You gain an extra health point for each character level. Your armor class is equal to 10 plus your Wisdom and Dexterity modifiers when you are not wearing armor.</content>
+    <content contentuid="KHB_ShowSomeSkinDescription" version="1">Your skin is supple and used to pain. You gain an extra health point for each character level, and while not wearing armour, your base &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 12, and you add your Wisdom and Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt; to your Armour Class.</content>
 
     <content contentuid="KHB_ThumbscrewerDisplayName" version="1">Thumbscrewer</content>
-    <content contentuid="KHB_ThumbscrewerDescription" version="1">If you are unarmed and not wearing armor, you deal [1] extra damage to your unarmed attacks and add your Proficiency Bonus to their attack rolls.</content>
+    <content contentuid="KHB_ThumbscrewerDescription" version="1">If you are unarmed and not wearing armor, you deal an extra [1] with your unarmed attacks and add your Proficiency Bonus to their attack rolls.</content>
 
     <content contentuid="KHB_ThumbscrewsDisplayName" version="1">Thumbscrews</content>
-    <content contentuid="KHB_ThumbscrewsDescription" version="1">When you make a critical strike against an enemy, you afflict them with [1].</content>
+    <content contentuid="KHB_ThumbscrewsDescription" version="1">When you make a critical strike against an enemy, you afflict them with &lt;LSTag Type="Status" Tooltip="KHB_Status_Thumbscrewed"&gt;Thumbscrewed&lt;/LSTag&gt; Your &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; threshold is reduced by [1].</content>
 
 
     <!--Target Spells-->
     <content contentuid="KHB_FlayingStrikesDisplayName" version="1">Flaying Strikes</content>
-    <content contentuid="KHB_lv3_FlayingStrikesDescription" version="1">Can't spell</content>
-    <content contentuid="KHB_lv7_FlayingStrikesDescription" version="1">Pained Domain</content>
+    <content contentuid="KHB_lv1_FlayingStrikesDescription" version="1">Your desire to inflict pain lets your unarmed attacks strike much harder. Your unarmed attacks deal an extra [1].</content>
+    <content contentuid="KHB_lv7_FlayingStrikesDescription" version="1">Your desire to inflict pain lets your unarmed attacks strike much harder. Your unarmed attacks deal an extra [1], and count as magical for the purpose of overcoming enemies' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to non-magical damage.</content>
 
 
     <!--Statuses-->
@@ -41,7 +42,5 @@
 
     <!--Loviatar-->
     <content contentuid="KHB_LoviatarDisplayName" version="1">Loviatar</content>
-    <content contentuid="KHB_LoviatarDescription" version="1"></content>
-
-
+    <content contentuid="KHB_LoviatarDescription" version="1">Loviatar was the evil goddess of agony and was both queen and servant to the greater god Bane. The Maiden of Pain was the master of inflicting physical and psychological suffering, her portfolio encompassing hurt and torture.&lt;br&gt;&lt;br&gt;&lt;i&gt;I sat alone because of thy hand, for thou hast filled me with indignation. Why is my pain perpetual, and my wound incurable, which refuseth to be healed? Wilt thou be altogether unto me as a liar, and as waters that fail?&lt;/i&gt; - &lt;b&gt;&lt;i&gt;Maiden of Pain&lt;/i&gt;, Kameron M. Franklin&lt;/b&gt;</content>
 </contentList>
