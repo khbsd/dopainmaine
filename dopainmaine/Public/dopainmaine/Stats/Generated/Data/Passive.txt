@@ -92,7 +92,7 @@ data "Description" "KHB_lv1_FlayingStrikesDescription"
 data "DescriptionParams" "DealDamage(UnarmedDamage + 1d6, Piercing)"
 data "Icon" "Action_ShadowStrike"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(KHB_Target_lv3_FlayingStrikes)"
+data "Boosts" "UnlockSpell(KHB_Target_lv1_FlayingStrikes)"
 
 
 new entry "KHB_lv7_FlayingStrikes_Unlock"

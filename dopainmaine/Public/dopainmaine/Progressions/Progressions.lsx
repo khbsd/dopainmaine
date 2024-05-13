@@ -78,7 +78,7 @@
                     <attribute id="Boosts" type="LSString" value="" />
                     <attribute id="Level" type="uint8" value="7" />
                     <attribute id="Name" type="LSString" value="" />
-                    <attribute id="PassivesRemoved" type="LSString" value="KHB_lv3_FlayingStrikes_Unlock"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="KHB_lv1_FlayingStrikes_Unlock"/>
                     <attribute id="PassivesAdded" type="LSString" value="KHB_lv7_FlayingStrikes_Unlock" />
                     <attribute id="ProgressionType" type="uint8" value="1" />
                     <attribute id="Selectors" type="LSString" value="" />

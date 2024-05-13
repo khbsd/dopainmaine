@@ -20,7 +20,7 @@
     <content contentuid="KHB_InPainMembraneDescription" version="1">You gain a +1 to Constitution and Wisdom, but -1 to Intelligence.</content>
 
     <content contentuid="KHB_ShowSomeSkinDisplayName" version="1">Show Some Skin</content>
-    <content contentuid="KHB_ShowSomeSkinDescription" version="1">Your skin is supple and used to pain. You gain an extra health point for each character level, and while not wearing armour, your base &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 12, and you add your Wisdom and Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt; to your Armour Class.</content>
+    <content contentuid="KHB_ShowSomeSkinDescription" version="1">Your skin is supple and used to pain. You gain an extra health point for each character level. While not wearing armour, your base &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 12, plus your Wisdom and Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifiers&lt;/LSTag&gt; to your Armour Class.</content>
 
     <content contentuid="KHB_ThumbscrewerDisplayName" version="1">Thumbscrewer</content>
     <content contentuid="KHB_ThumbscrewerDescription" version="1">If you are unarmed and not wearing armor, you deal an extra [1] with your unarmed attacks and add your Proficiency Bonus to their attack rolls.</content>
