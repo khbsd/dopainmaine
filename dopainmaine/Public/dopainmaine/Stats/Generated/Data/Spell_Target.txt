@@ -19,7 +19,9 @@ data "DualWieldingSpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;0579f7
 data "VerbalIntent" "Damage"
 data "SpellStyleGroup" "Class"
 data "SpellFlags" "IsMelee;IsHarmful;IsAttack"
+data "PrepareEffect" "4fc82046-2bba-4534-9ad0-38976518e696"
 data "CastEffect" "9d8f170e-35d7-4cdb-b1f9-5493cf771b19"
+data "TargetEffect" "d77faa41-a068-4405-85da-d1aa409dbcce"
 data "DamageType" "Piercing"
 data "Sheathing" "DontChange"
 
