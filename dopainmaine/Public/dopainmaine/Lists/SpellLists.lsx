@@ -5,9 +5,9 @@
         <node id="root">
             <children>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Cleric, Zeal Domain spell scroll list" />
-                    <attribute id="Spells" type="LSString" value="Target_Smite_Searing;Target_Smite_Thunderous;Target_MagicWeapon;Target_Shatter;Target_Haste;Projectile_Fireball;Shout_LHB_ACD_FireShield_Warm;Target_FreedomOfMovement;Shout_DestructiveWave;Target_FlameStrike" />
-                    <attribute id="UUID" type="guid" value="b6b181b9-bdc5-4e9f-a3ad-7283ed17fd37" />
+                    <attribute id="Comment" type="LSString" value="Pained Domain Spells" />
+                    <attribute id="Spells" type="LSString" value="Projectile_EldritchBlast;KHB_Target_ChillTouchWhip" />
+                    <attribute id="UUID" type="guid" value="d8df51d2-3bab-4e9a-8783-74bf931c71d1" />
                 </node>
             </children>
         </node>

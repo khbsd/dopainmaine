@@ -7,7 +7,7 @@
 
     <!--Passives-->
     <content contentuid="KHB_AutosadismDisplayName" version="1">Autosadism</content>
-    <content contentuid="KHB_AutosadismDescription" version="1">When you are hit by an attack, you can choose to take an additional amount of damage equal to your Charisma modifier, and heal allied entities within [1] for the same amount.</content>
+    <content contentuid="KHB_AutosadismDescription" version="1">When you are hit by an attack, you can choose to take an additional amount of damage equal to your Charisma modifier, and heal allied entities within [1]m for the same amount.</content>
     <content contentuid="KHB_AutosadismExtraDescription" version="1">&lt;i&gt;It's the cruel beast that you feed&lt;br&gt;It's your burning yearning need to bleed&lt;br&gt;Through the spillways of your soul&lt;br&gt;&lt;/i&gt; - &lt;b&gt;&lt;i&gt;Spillways&lt;/i&gt;, Ghost&lt;/b&gt;</content>
 
     <content contentuid="KHB_ExhibitionistDisplayName" version="1">Exhibitionist</content>
