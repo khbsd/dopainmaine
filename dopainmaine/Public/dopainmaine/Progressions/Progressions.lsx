@@ -60,7 +60,7 @@
                     <attribute id="Name" type="LSString" value="PainedDomain" />
                     <attribute id="PassivesAdded" type="LSString" value="KHB_Passive_Thumbscrewer;KHB_Passive_Thumbscrews" />
                     <attribute id="ProgressionType" type="uint8" value="1" />
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(d8df51d2-3bab-4e9a-8783-74bf931c71d1,1,0,,,,AlwaysPrepared)" />
+                    <!--<attribute id="Selectors" type="LSString" value="SelectSpells(d8df51d2-3bab-4e9a-8783-74bf931c71d1,1,0,,,,AlwaysPrepared)" />-->
                     <attribute id="TableUUID" type="guid" value="17157bad-3a35-4a28-be7d-7422baedce4e" />
                     <attribute id="UUID" type="guid" value="42f9bb74-2fe4-4ea0-93c6-5d5e18cde286" />
                 </node>
@@ -81,7 +81,7 @@
                     <attribute id="PassivesRemoved" type="LSString" value="KHB_lv1_FlayingStrikes_Unlock"/>
                     <attribute id="PassivesAdded" type="LSString" value="KHB_lv7_FlayingStrikes_Unlock;AgonizingBlast" />
                     <attribute id="ProgressionType" type="uint8" value="1" />
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(d8df51d2-3bab-4e9a-8783-74bf931c71d1,1,0,,,,AlwaysPrepared)" />
+                    <!--<attribute id="Selectors" type="LSString" value="SelectSpells(d8df51d2-3bab-4e9a-8783-74bf931c71d1,1,0,,,,AlwaysPrepared)" />-->
                     <attribute id="TableUUID" type="guid" value="17157bad-3a35-4a28-be7d-7422baedce4e" />
                     <attribute id="UUID" type="guid" value="8a68c05f-e15b-435c-b02b-a04a6634afc3" />
                 </node>

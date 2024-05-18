@@ -33,8 +33,19 @@ data "SpellType" "Target"
 using "KHB_Target_lv1_FlayingStrikes"
 data "SpellSuccess" "DealDamage(UnarmedDamage + 1d8, Piercing, Magical)"
 data "Description" "KHB_lv7_FlayingStrikesDescription"
-data "DescriptionParams" "DealDamage(UnarmedDamage + 1d8, Piercing)"
+data "DescriptionParams" "DealDamage(UnarmedDamage + 1d8, Piercing, Magical)"
 data "TooltipDamageList" "DealDamage(UnarmedDamage + 1d8, Piercing, Magical)"
+
+
+new entry "KHB_Target_FlayNerves"
+type "SpellData"
+data "SpellType" "Target"
+using "KHB_Target_lv1_FlayingStrikes"
+data "SpellSuccess" "DealDamage(UnarmedDamage + 1d8, Piercing, Magical);IF(not CharacterLevelGreaterThan(8)):ApplyStatus(KHB_Status_Thumbscrewed, 100, 3);IF(CharacterLevelGreaterThan(8)):ApplyStatus(KHB_lv9_Status_Thumbscrewed, 100, 3);ApplyStatus(KHB_Status_FlayedNerves, 100, 1)"
+data "Description" "KHB_lv7_FlayingStrikesDescription"
+data "DescriptionParams" "DealDamage(UnarmedDamage + 1d8, Piercing, Magical)"
+data "TooltipDamageList" "DealDamage(UnarmedDamage + 1d8, Piercing, Magical)"
+data "UseCosts" "SpellSlotsGroup:1:1:3;BonusActionPoint:1;ActionPoint:1"
 
 
 new entry "KHB_Target_ChillTouchWhip"
