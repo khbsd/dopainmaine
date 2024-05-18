@@ -104,6 +104,17 @@ data "DescriptionParams" "DealDamage(UnarmedDamage + 1d8, Piercing, Magical)"
 data "Boosts" "UnlockSpell(KHB_Target_lv7_FlayingStrikes)"
 
 
+new entry "KHB_FlayNerves_Unlock"
+type "PassiveData"
+data "Description" "KHB_lv7_FlayingStrikesDescription"
+data "DescriptionParams" "DealDamage(UnarmedDamage + 1d8, Piercing, Magical)"
+data "Icon" "Spell_Target_FlayNerves"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(KHB_Target_FlayNerves)"
+
+
+
+
 new entry "KHB_Autosadism_Unlock"
 type "PassiveData"
 data "DisplayName" "KHB_AutosadismDisplayName"

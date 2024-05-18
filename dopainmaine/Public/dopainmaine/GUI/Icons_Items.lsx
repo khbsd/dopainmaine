@@ -9,7 +9,7 @@
                     <attribute id="Width" type="int64" value="64"/>
                 </node>
                 <node id="TextureAtlasPath">
-                    <attribute id="Path" type="LSString" value="Assets/Textures/Icons/dopainmaine_Icons.dds"/>
+                    <attribute id="Path" type="LSString" value="Assets/Textures/Icons/Spell_Target_FlayNerves.dds"/>
                     <attribute id="UUID" type="FixedString" value="f5b7d47f-742e-4cd5-9cfe-55c4012adab6"/>
                 </node>
                 <node id="TextureAtlasTextureSize">
@@ -23,7 +23,7 @@
         <node id="root">
             <children>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="dopainmaine"/> 1
+                    <attribute id="MapKey" type="FixedString" value="Spell_Target_FlayNerves"/> 1
                     <attribute id="U1" type="float" value="0.0"/> Left
                     <attribute id="U2" type="float" value="0.25"/> Right
                     <attribute id="V1" type="float" value="0.0"/> Top
