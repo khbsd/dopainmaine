@@ -36,6 +36,7 @@ data "Description" "KHB_lv7_FlayingStrikesDescription"
 data "DescriptionParams" "DealDamage(UnarmedDamage + 1d8, Piercing)"
 data "TooltipDamageList" "DealDamage(UnarmedDamage + 1d8, Piercing, Magical)"
 
+
 new entry "KHB_Target_FlayNerves"
 type "SpellData"
 data "SpellType" "Target"
@@ -51,6 +52,7 @@ data "SpellFlags" "IsSpell;IsHarmful"
 data "UseCosts" "ActionPoint:1;BonusActionPoint:1"
 data "HitCosts" "SpellSlotsGroup:1:1:3"
 
+
 new entry "KHB_Target_lv7_FlayNerves"
 type "SpellData"
 data "SpellType" "Target"
@@ -62,6 +64,7 @@ data "SpellSuccess" "DealDamage(UnarmedDamage + 1d4, Piercing, Magical);ApplySta
 data "TooltipDamageList" "DealDamage(UnarmedDamage + 1d4, Piercing, Magical)"
 data "HitCosts" "SpellSlotsGroup:1:1:4"
 data "PowerLevel" "4"
+
 
 new entry "KHB_Target_lv9_FlayNerves"
 type "SpellData"

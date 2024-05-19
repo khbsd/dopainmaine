@@ -95,7 +95,6 @@ data "Icon" "Action_ShadowStrike_Unarmed"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(KHB_Target_lv1_FlayingStrikes)"
 
-
 new entry "KHB_lv7_FlayingStrikes_Unlock"
 type "PassiveData"
 using "KHB_lv1_FlayingStrikes_Unlock"

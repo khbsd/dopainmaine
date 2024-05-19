@@ -30,7 +30,6 @@ data "StackId" "KHB_THUMBSCREWED"
 data "BoostConditions" "not HasStatus('KHB_Status_Thumbscrewed')"
 data "Boosts" "AC(-1)"
 
-
 new entry "KHB_lv9_Status_Thumbscrewed"
 type "StatusData"
 data "StatusType" "BOOST"
