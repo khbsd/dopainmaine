@@ -9,8 +9,8 @@
                     <attribute id="Width" type="int64" value="64"/>
                 </node>
                 <node id="TextureAtlasPath">
-                    <attribute id="Path" type="LSString" value="Assets/Textures/Icons/Spell_Target_FlayNerves.dds"/>
-                    <attribute id="UUID" type="FixedString" value="f5b7d47f-742e-4cd5-9cfe-55c4012adab6"/>
+                    <attribute id="Path" type="LSString" value="Assets/Textures/Icons/Spell_Target_FlayNerves.DDS"/>
+                    <attribute id="UUID" type="FixedString" value="3a8f854c-592b-4723-860a-da9be15bec10"/>
                 </node>
                 <node id="TextureAtlasTextureSize">
                     <attribute id="Height" type="int64" value="256"/>
