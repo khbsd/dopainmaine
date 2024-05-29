@@ -39,6 +39,10 @@
     <content contentuid="KHB_lv7_FlayNervesDescription" version="1">Once per turn, forcefully attack and apply &lt;LSTag Type="Status" Tooltip="KHB_Status_Thumbscrewed"&gt;Thumbscrewed&lt;/LSTag&gt; to your target for [1] rounds, fraying their nerves and shocking their system with the sudden pain. They are &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all damage until the start of your next turn. Damage done by this attack counts as magical for the purpose of overcoming enemies' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to non-magical damage.</content>
 
 
+    <!--Shouts-->
+    <content contentuid="KHB_LoviatarLessonDisplayName" version="1">Offering to Loviatar</content>
+
+
     <!--Statuses-->
     <content contentuid="KHB_ThumbscrewedDisplayName" version="1">Thumbscrewed</content>
     <content contentuid="KHB_ThumbscrewedDescription" version="1">Target has been pierced and is actively suffering pain from Thumbscrews. Their AC is lowered by [1].</content>

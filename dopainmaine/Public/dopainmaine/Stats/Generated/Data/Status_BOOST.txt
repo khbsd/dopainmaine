@@ -1,24 +1,3 @@
-new entry "KHB_Status_InPainInTheMembrane"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h80729873g86d9g4ddbga01egeebe788f1733;2"
-data "Description" "hef31fe63ga576g45c0ga580gf2b0d8fa0b35;3"
-data "Icon" "statIcons_UnderOperation"
-data "StackId" "GOB_CALMNESS_IN_PAIN"
-data "StatusPropertyFlags" "IgnoreResting;ApplyToDead"
-
-
-new entry "KHB_GOB_CALMNESS_ACTIVE_DUMMY"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h80729873g86d9g4ddbga01egeebe788f1733;2"
-data "Description" "hef31fe63ga576g45c0ga580gf2b0d8fa0b35;3"
-data "Icon" "statIcons_GOB_CalmnessInPain_Active"
-data "Properties" "Hidden"
-data "StackId" "GOB_CALMNESS_IN_PAIN_ACTIVE"
-data "StatusPropertyFlags" "IgnoreResting;ApplyToDead"
-
-
 new entry "KHB_Status_Thumbscrewed"
 type "StatusData"
 data "StatusType" "BOOST"
