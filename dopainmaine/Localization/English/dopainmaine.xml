@@ -41,7 +41,8 @@
 
     <!--Shouts-->
     <content contentuid="KHB_LoviatarLessonDisplayName" version="1">Offering to Loviatar</content>
-
+    <content contentuid="KHB_LoviatarLessonDescription" version="1">If you do not already have the &lt;LSTag Type="Status" Tooltip="GOB_CALMNESS_IN_PAIN"&gt;Loviatar's Love&lt;/LSTag&gt; status, you may take [1] and  gain Her blessing.</content>
+    <content contentuid="KHB_LoviatarLessonExtraDescription" version="1">If you do already have it, you can still take [1]. I'm sure Loviatar will enjoy the show.</content>
 
     <!--Statuses-->
     <content contentuid="KHB_ThumbscrewedDisplayName" version="1">Thumbscrewed</content>
