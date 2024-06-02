@@ -42,7 +42,7 @@ data "DescriptionParams" "Level"
 data "Icon" "PassiveFeature_UnarmoredDefense"
 data "Properties" "Highlighted"
 data "BoostContext" "OnEquip;OnCreate"
-data "BoostConditions" "not WearingArmor(context.Source) and not HasShieldEquipped(context.Source)"
+data "BoostConditions" "(not WearingArmor(context.Source) or HasPassive('LI_Claws_RemodelledFrame_1', context.Source) or HasPassive('LI_Claws_RemodelledFrame_2', context.Source) or HasPassive('LI_Claws_RemodelledFrame_3', context.Source) or HasPassive('LI_Claws_RemodelledFrame_4', context.Source)) and not HasShieldEquipped(context.Source)"
 data "Boosts" "ACOverrideFormula(11, true, Charisma, Wisdom);IncreaseMaxHP(Level)"
 
 
