@@ -1,0 +1,31 @@
+{
+    "maxCacheSize": 1000,
+    "hoverMaxFiles": 10,
+    "packingPriority": 0,
+    "hoverEnabled": true,
+    "hoverShowPath": true,
+    "rootModPath": "w:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\khbsd_mods\\dopainmaine\\dopainmaine",
+    "modDestPath": "C:\\Users\\atoka\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Mods",
+    "lslibPath": "W:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\LSLIB\\Tools",
+    "autoLaunchOnPack": false,
+    "zipOnPack": false,
+    "launchContinueGame": true,
+    "excludedFiles": [],
+    "addHandlesToAllLocas": true,
+    "gameInstallLocation": "W:\\SteamLibrary\\steamapps\\common\\Baldurs Gate 3",
+    "modName": "dopainmaine",
+    "excludeHidden": true,
+    "modWorkspacePath": "W:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\khbsd_mods\\bg3lore\\",
+    "divinePath": "W:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\LSLIB\\Tools",
+    "hover": {
+        "maxFiles": 1000,
+        "enabled": false
+    },
+    "paths": {
+        "lslibPath": "W:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\LSLIB\\Tools",
+        "modDestPath": "C:\\Users\\atoka\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Mods"
+    },
+    "general": {
+        "gameInstallLocation": "W:\\SteamLibrary\\steamapps\\common\\Baldurs Gate 3\\Data"
+    }
+}
