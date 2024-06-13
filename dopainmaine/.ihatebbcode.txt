@@ -3,7 +3,7 @@
 [size=2][i]Can't spell [b]dopamine[/b] without [b]pained[/b].[/i][/size]
 [/center]
 
-[size=4]Welcome to my latest subclass: The (f)Unarmed Loviatar Cleric![/size]
+[size=4]Welcome to my latest subclass: The [url=https://github.com/khbsd/dopainmaine](f)Unarmed Loviatar Cleric[/url]![/size]
 You are called to do Loviatar's bidding- mixing pain and pleasure to spread Her message.
 
 

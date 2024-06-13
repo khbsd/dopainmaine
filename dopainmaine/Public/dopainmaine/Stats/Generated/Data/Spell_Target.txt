@@ -48,10 +48,10 @@ data "DisplayName" "KHB_FlayNervesDisplayName"
 data "Description" "KHB_FlayNervesDescription"
 data "DescriptionParams" "2;1"
 data "TooltipDamageList" "DealDamage(UnarmedDamage, Piercing)"
-data "Cooldown" "OncePerTurn"
 data "SpellFlags" "IsSpell;IsHarmful"
 data "UseCosts" "ActionPoint:1;"
-data "HitCosts" "SpellSlotsGroup:1:1:3;BonusActionPoint:1"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:3"
+
 
 
 new entry "KHB_Target_lv7_FlayNerves"
@@ -63,7 +63,7 @@ data "Description" "KHB_lv7_FlayNervesDescription"
 data "DescriptionParams" "3;1"
 data "SpellSuccess" "DealDamage(UnarmedDamage + 1d4, Piercing, Magical);ApplyStatus(KHB_Status_Thumbscrewed, 100, 3);ApplyStatus(KHB_Status_FlayedNerves, 100, 1)"
 data "TooltipDamageList" "DealDamage(UnarmedDamage + 1d4, Piercing, Magical)"
-data "HitCosts" "SpellSlotsGroup:1:1:4;BonusActionPoint:1"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:4"
 data "PowerLevel" "4"
 
 
@@ -76,6 +76,6 @@ data "Description" "KHB_lv7_FlayNervesDescription"
 data "DescriptionParams" "4;1"
 data "SpellSuccess" "DealDamage(UnarmedDamage + 1d6, Piercing, Magical);ApplyStatus(KHB_lv9_Status_Thumbscrewed, 100, 4);ApplyStatus(KHB_Status_FlayedNerves, 100, 1)"
 data "TooltipDamageList" "DealDamage(UnarmedDamage + 1d6, Piercing, Magical)"
-data "HitCosts" "SpellSlotsGroup:1:1:5;BonusActionPoint:1"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
 data "PowerLevel" "5"
 
