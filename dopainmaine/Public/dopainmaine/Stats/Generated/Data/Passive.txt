@@ -99,7 +99,7 @@ data "Description" "KHB_FlayNervesDescription"
 data "DescriptionParams" "2;1"
 data "TooltipDamageList" "DealDamage(UnarmedDamage, Piercing)"
 data "Icon" "Spell_Target_FlayNerves"
-data "Boosts" "UnlockSpell(KHB_Target_FlayNerves, AddChildren)"
+data "Boosts" "UnlockSpell(KHB_Target_FlayNerves, AddChildren, d136c5d9-0ff0-43da-acce-a74a07f8d6bf, , Wisdom)"
 
 new entry "KHB_lv7_FlayNerves_Unlock"
 type "PassiveData"
