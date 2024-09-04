@@ -5,7 +5,7 @@
     "hoverEnabled": true,
     "hoverShowPath": true,
     "rootModPath": "w:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\khbsd_mods\\dopainmaine\\dopainmaine",
-    "modDestPath": "C:\\Users\\atoka\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Mods",
+    "modDestPath": "W:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\khbsd_mods\\dopainmaine\\dopainmaine\\.paks",
     "lslibPath": "W:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\LSLIB\\Tools",
     "autoLaunchOnPack": false,
     "zipOnPack": false,
@@ -14,7 +14,7 @@
     "addHandlesToAllLocas": true,
     "gameInstallLocation": "W:\\SteamLibrary\\steamapps\\common\\Baldurs Gate 3",
     "modName": "dopainmaine",
-    "excludeHidden": true,
+    "excludeHidden": false,
     "modWorkspacePath": "W:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\khbsd_mods\\bg3lore\\",
     "divinePath": "W:\\Libraries\\Documents\\Baldur's Gate 3 Mods\\LSLIB\\Tools",
     "hover": {
