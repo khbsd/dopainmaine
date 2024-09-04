@@ -88,4 +88,3 @@ data "TooltipDamageList" "DealDamage(UnarmedDamage + 1d6, Piercing, Magical)"
 data "TooltipStatusApply" "ApplyStatus(KHB_Status_Thumbscrewed, 100, 4);ApplyStatus(KHB_Status_FlayedNerves, 100, 1)"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
 data "PowerLevel" "5"
-
